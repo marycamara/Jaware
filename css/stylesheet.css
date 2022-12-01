@@ -1,0 +1,571 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0b0b0c;
+  background-attachment: fixed;
+  text-align: left;
+}
+
+
+
+#wrapper{ /* this is what center the web doucment  */
+    width: 1000px;
+    margin: 0 auto;
+
+  }
+/* Ended  */
+
+
+/*  haeder and footer Section Starts*/
+ul#social {  
+  list-style-type: none;
+  
+  }
+  
+  ul#social  li {
+  float: left;
+  
+  
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /*  header and footer Section ends */
+
+  h1{
+  color: white;
+  }
+
+
+
+
+  /* website logo starts here  */
+  .logo-name{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 80px;
+  width: 80px;
+  }
+
+  .container {
+    width: 500px;
+    height: 250px;
+    margin: 50px;
+    outline: solid 1px black;
+  }
+
+  .website-name{
+
+    font-size: 30px;
+    text-align:center;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+  
+  }
+
+  /*  wbsite logo ends here */
+
+nav .menu_icon{
+  width: 30px;
+  height: 30px;
+}
+  /*  Login section start*/
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid blue;
+    border-right: 16px solid green;
+    border-bottom: 16px solid red;
+    border-left: 16px solid pink;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+  /* Login Section Ends Here  */
+
+
+  /* Navigation Section Starts  */
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f44336;
+    border-radius: 5px;
+  }
+
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #f5958e;
+  }
+
+ 
+  
+   /* Navigation Section Ends  */
+
+  Footer ul li  image {
+    Width:100%;}
+
+    .grid-wrapper {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 10px;
+      align-content: center;
+      width: 800px;
+      grid-gap:20px;
+      column-gap: 20px;
+      margin: 2rem;
+    
+    }
+
+    .grid-item {
+      background: #f1f1f8;
+      color: #0b0b0c;
+      border: 1px solid ;
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+      border-radius: 10px ;
+      position: relative;
+      overflow: hidden;
+      width: 250px;
+      height: 200px;
+    }
+    
+    .grid-item:hover{
+    
+      background-color: #f44336;
+    }
+    
+    
+    .profile-img{
+      width: 10rem;
+      clip-path: circle(90px at center);
+      margin-top: 2.5rem;
+     
+    }
+    
+    .name{
+      font-size: 20px;
+      color: black;
+      text-align: left;
+
+    }
+    
+    .description{
+      margin: 1rem 2rem;
+      font-size: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: black;
+      text-align: left;
+    
+    }
+    .certificate-type{
+    
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: black;
+      font-size: 20px;
+      text-align: left;
+    }
+
+    .github-icon{
+
+      height: 40px;
+     color: black;
+    }
+
+    .programming-language{
+
+      color: black;
+      font-size: 20px;
+      text-align: left;
+    }
+    
+
+
+
+
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    
+    button {
+      background-color: #f44336;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+    
+    .cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      background-color: #f44336;
+    }
+    
+    .imgcontainer {
+      text-align: center;
+      margin: 24px 0 12px 0;
+    }
+    
+    img.avatar {
+      width: 20%;
+      border-radius: 50%;
+    }
+    
+    .container {
+      padding: 16px;
+    }
+    
+    span.psw {
+      float: right;
+      padding-top: 16px;
+    }
+    
+    
+
+      /*  this will be the employee information section*/
+      .profile-wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        align-content: center;
+        width: 800px;
+        grid-gap:20px;
+        column-gap: 20px;
+        margin: 2rem;
+      }
+
+      .profile-items {
+        color: #ccc;
+        border: 1px solid 36 ;
+        background: rgb(44, 44, 44);
+        padding: 20px;
+        font-size: 10px;
+        text-align: left;
+        border-radius: 5px;
+        width: 850px;
+        height: 300px;
+      }
+
+      h1.profile{
+
+        color: #f44336;
+        font-size: 40px;
+      }
+
+      h2.full-name{
+        color: #f44336;
+        font-size: 20px;
+      }
+      
+      h2.role{
+        color: #f44336;
+        font-size: 20px;
+      }
+
+      h2.certifcate-number{
+        color: #f44336;
+        font-size: 20px;
+      }
+
+
+       /* Timetable Section Start */
+       
+       table{
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+    td, th {
+    border: 1px solid #f44336;
+    text-align: left;
+    padding: 8px;
+    color: black;
+    border-radius: 5px;
+    background: white;
+    margin-right: auto;
+   margin-right: auto;
+  }
+
+  tr:nth-child(even) {
+  background-color: #f44336;
+  width: 100%;
+}
+
+  td, th:hover{
+  background-color: #890c03;
+  }
+
+  /* Timetable Section Ends */
+
+
+
+
+
+  /* Search Bar Section Starts */
+
+  .nav input[type=text]{
+    float: left;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 15px;
+    height: 20px;
+    width: 20px;
+  }
+
+
+
+
+
+
+/* machine section starts */
+.machine-overview-wrapper{
+   display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 10px;
+      align-content: center;
+      width: 800px;
+      grid-gap:20px;
+      column-gap: 20px;
+      margin: 2rem;
+
+}
+
+.machine-overview-item{
+  background: #f1f1f8;
+      color: #0b0b0c;
+      border: 1px solid ;
+      padding: 20px;
+      font-size: 20px;
+      text-align: left;
+      border-radius: 10px ;
+      position: relative;
+      overflow: hidden;
+      width: 900px;
+      height: 300px;
+    }
+    
+   
+    .machine-overview-item:hover{
+    
+      background-color: #f44336;
+    }
+
+    .name-machine-title{
+
+      font-size: 30px;
+    }
+
+    .machine-type{
+
+    }
+
+
+    .machine-fuction{
+
+    }
+
+    .certifcate-type{
+
+
+    }
+
+    .availability{
+
+
+    }
+
+
+    .option-wrapper{
+
+
+    }
+
+    .option-item{
+
+
+    }
+
+    .machine-option-title{
+      color: white;
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
+
+
+    .machine-container {
+      border-radius: 5px;
+      background-color: #0b0b0c;
+      padding: 20px;
+
+    
+    }
+    input[type=text], select {
+      width: 50%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #ccc;
+    }
+
+    .col-25 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+
+
+
+
+
+
+
+
+    * {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}

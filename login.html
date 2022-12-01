@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= "utf-8">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+
+        <title> Jaware  </title>
+        <img src="images/logo-4.png" alt="logo" class="logo-name">
+
+       
+    </head>
+    <body> 
+        <div id="wrapper"> 
+       <nav> 
+      <ul>     
+        <li> <a href="home.html"> Home </a></li>  
+                <li> <a href="login.html"> Sign & Security </a></li>
+            </ul>
+        </nav> 
+
+        <!-- The login system for employee-->
+        <h2>Login Form</h2>
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+
+    <div class="loader"></div>x
+
+   <!-- <img src="images/employee-icon.png" alt="Avatar" class="avatar">  -->
+    <h1> Login</h1>
+    
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+    </body>
+    </html>
